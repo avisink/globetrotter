@@ -4,7 +4,7 @@ Submitted by: **Ayomide Isinkaye**
 
 Estimated time spent: **7** hours spent in total
 
-Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Globetrotter Deployed Site](https://avisink-globetrotter.netlify.app/gallery)
 
 ### Application Features
 
@@ -74,7 +74,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [ ] *Note*: You do not have to collect and save the data submitted using the form. 
 
 - [ ] **Deployment**
-  - [ ] Deploy your website so it's accessible to the public outside of your local machine. 
+  - [x] Deploy your website so it's accessible to the public outside of your local machine. 
   - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please film yourself using your deployed URL with the URL visible in your video. 
 
 - [ ] **Custom Styling**: Add a personal touch to your site's design.
@@ -91,15 +91,19 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Response:
+Even though we briefly covered the topics, I felt that the labs and brief activities in class were quite helpful. They emphasized the importance of self-research and learning independently. The flexbox topic, in particular, was challenging for me, but I could easily reference the bug crawl starter demo project we did in class to remind myself how it worked. The topics discussed were very relevant to building the static website for our projects, and I didn't feel unprepared for any specific parts. Instead, I felt more challenged than unprepared overall.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+Response:
+If I had more time, I would have focused on improving the email submission form to record submissions effectively. Additionally, I would have added more content, such as a food guide and accommodation guide, and organized them under an "Austin Guide" section instead of just having an events guide. I might have also reconsidered the color scheme; while I like the current one, I believe it could look even better. I would have worked on applying CSS grid more effectively, as it wasn't functioning as expected in my code. Lastly, I would have conducted more in-depth research on media queries. Although I understood them to some extent, much of my work involved trial and error in Chrome DevTools to determine the appropriate edits for each screen size range.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Response:
+Many aspects of the project demo went well. It had been a long time since I did any web development, so I faced some challenges, especially with CSS. I consider myself more analytical than creative in the arts/design, but the lessons helped me achieve good structures and make them look presentable. However, CSS did not go as planned, and I realized I need more practice. Dariel showed me several shortcuts in VS Code that made my life significantly easier compared to typing everything by hand. I hope to get used to these shortcuts as they are much more efficient, and I look forward to continuing to use them.
+
 
 ### Open-source libraries used
 
@@ -108,3 +112,7 @@ Add your response here
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
+- Shoutout to:
+    - Kustom Keith  
+    - Dramatic Dariel
