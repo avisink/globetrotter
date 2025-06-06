@@ -126,7 +126,7 @@ section + div {
 
 #top-attractions {
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
 }
 
 .attraction{
@@ -175,14 +175,20 @@ section + div {
 }
 
 #photos {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
-.photo-gallery {
-    display: flex;
-    flex-direction: column;
+.photo-section {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px 1fr));
+    gap: 2rem;
 
+}
+.photo-gallery {
+    margin: auto;
+    padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
 .photo-gallery img{
@@ -190,7 +196,7 @@ section + div {
 }
 
 .photo-gallery p{
-    text-align: justify;
+    text-align: left;
     font-size: 0.95rem;
 }
 
@@ -235,7 +241,8 @@ iframe {
 
 .newsletter-form button {
     width:35%;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
+    margin-right: 1rem;
     font-size: 1rem;
     font-weight: 500;
     background: #3f4593;
@@ -250,8 +257,9 @@ iframe {
 }
 .form-group {
     width: 100%;
-    position:stick;
+    position:sticky;
     top: 0;
+    padding-right: 5rem;
 }
 
 
@@ -298,7 +306,7 @@ iframe {
         width: 100%;
     }
     .newsletter-form button {
-    width: 100%;
+        width: 100%;
     }
 }
 

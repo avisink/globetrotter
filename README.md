@@ -10,13 +10,13 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 #### CORE FEATURES
 
-- [ ] **Home Page**
+- [x] **Home Page**
   - [x] A heading that mentions the destination.
   - [x] An introductory paragraph that welcomes visitors and dsescribes the purpose of the website. 
   - [x] An evocative image that represents the location.
   - [x] Content organized using Flexbox for a fluid layout.
 
-- [ ] **Top Attractions Page**
+- [x] **Top Attractions Page**
   - [x] A separate page featuring a minimum of three attractions, each including a:
     - [x] Name
     - [x] Photo
@@ -25,7 +25,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
     - E.g. same font, image size, title size, etc. 
   - [x] Content arranged with Flexbox for consistency and responsiveness.
 
-- [ ] **Guide Page (Choose One)**
+- [x] **Guide Page (Choose One)**
   - [x] A separate page that is either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
   - [x] At least three entries thematic to your choice that provide a:
     - [x] Title
@@ -57,7 +57,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 ### Stretch Features
 
-- [ ] **Additional Media**
+- [x] **Additional Media**
   - [x] Embed a piece of media that is not an image or text and relates to the travel content such as a:
     - Map
     - Video [x]
@@ -69,7 +69,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 - [ ] **Interactive Navigation**
   - [ ] Implement a dropdown menu where at least one menu item includes a nested dropdown menu to access additional categories or sub-pages.
 
-- [ ]**Travel Newsletter Form**
+- [x]**Travel Newsletter Form**
   - [x] Create a form to allow users to sign up for a travel newsletter, enhancing user engagement.
   - [ ] *Note*: You do not have to collect and save the data submitted using the form. 
 
@@ -103,7 +103,7 @@ Add your response here
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+- None.
 
 ### Shout out
 
