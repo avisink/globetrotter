@@ -1,11 +1,8 @@
-# globetrotter
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
+## Unit 1 Assignment: Globetrotter
 
-## Unit Assignment: Globetrotter
+Submitted by: **Ayomide Isinkaye**
 
-Submitted by: **NAME**
-
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **7** hours spent in total
 
 Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
@@ -14,56 +11,56 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 #### CORE FEATURES
 
 - [ ] **Home Page**
-  - [ ] A heading that mentions the destination.
-  - [ ] An introductory paragraph that welcomes visitors and dsescribes the purpose of the website. 
-  - [ ] An evocative image that represents the location.
-  - [ ] Content organized using Flexbox for a fluid layout.
+  - [x] A heading that mentions the destination.
+  - [x] An introductory paragraph that welcomes visitors and dsescribes the purpose of the website. 
+  - [x] An evocative image that represents the location.
+  - [x] Content organized using Flexbox for a fluid layout.
 
 - [ ] **Top Attractions Page**
-  - [ ] A separate page featuring a minimum of three attractions, each including a:
-    - [ ] Name
-    - [ ] Photo
-    - [ ] Brief description
-  - [ ] Each attraction is styled the same
+  - [x] A separate page featuring a minimum of three attractions, each including a:
+    - [x] Name
+    - [x] Photo
+    - [x] Brief description
+  - [x] Each attraction is styled the same
     - E.g. same font, image size, title size, etc. 
-  - [ ] Content arranged with Flexbox for consistency and responsiveness.
+  - [x] Content arranged with Flexbox for consistency and responsiveness.
 
 - [ ] **Guide Page (Choose One)**
-  - [ ] A separate page that is either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
-  - [ ] At least three entries thematic to your choice that provide a:
-    - [ ] Title
-    - [ ] Address
-    - [ ] Description
-    - [ ] Link with more information (e.g. link to a restaurant page)
-  - [ ] Each entry should be:
-    - [ ] Catered to a specific type of traveler (families, backpackers, etc.)
-    - [ ] Styled the same
+  - [x] A separate page that is either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
+  - [x] At least three entries thematic to your choice that provide a:
+    - [x] Title
+    - [x] Address
+    - [x] Description
+    - [x] Link with more information (e.g. link to a restaurant page)
+  - [x] Each entry should be:
+    - [x] Catered to a specific type of traveler (families, backpackers, etc.)
+    - [x] Styled the same
       - E.g. same font, title size, etc.
-  - [ ] Content arranged with Flexbox for consistency and responsiveness. 
+  - [x] Content arranged with Flexbox for consistency and responsiveness. 
 
-- [ ] **Photo Gallery**
-  - [ ] Separate page with at least five images related to the site's topic.
-  - [ ] Each image should include a caption describing the image.
-  - [ ] Presented in a responsive design using Flexbox.
+- [x] **Photo Gallery**
+  - [x] Separate page with at least five images related to the site's topic.
+  - [x] Each image should include a caption describing the image.
+  - [x] Presented in a responsive design using Flexbox.
 
-- [ ] **Navigation Bar**
-  - [ ] Navigation bar with working links to each of the following pages:
-    - [ ] Home Page
-    - [ ] Top Attractions
-    - [ ] Photo Gallery
-    - [ ] Guide Page (Food Guide, Accomodations Guide, _or_ Upcoming Local Events Guide)
-  - [ ] Navigation bar can be accessed from each page of the website.
-  - [ ] Styled with Flexbox that adapts to different screen sizes.  
+- [x] **Navigation Bar**
+  - [x] Navigation bar with working links to each of the following pages:
+    - [x] Home Page
+    - [x] Top Attractions
+    - [x] Photo Gallery
+    - [x] Guide Page (Food Guide, Accomodations Guide, _or_ Upcoming Local Events Guide)
+  - [x] Navigation bar can be accessed from each page of the website.
+  - [x] Styled with Flexbox that adapts to different screen sizes.  
 
-- [ ] **Smartphone Friendly**
-  - [ ] A design that is fully functional and aesthetically pleasing on smartphones is achieved using media queries.
+- [x] **Smartphone Friendly**
+  - [x] A design that is fully functional and aesthetically pleasing on smartphones is achieved using media queries.
 
 ### Stretch Features
 
 - [ ] **Additional Media**
-  - [ ] Embed a piece of media that is not an image or text and relates to the travel content such as a:
+  - [x] Embed a piece of media that is not an image or text and relates to the travel content such as a:
     - Map
-    - Video
+    - Video [x]
     - Song
 
 - [ ] **Enhanced Layouts**
@@ -73,7 +70,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [ ] Implement a dropdown menu where at least one menu item includes a nested dropdown menu to access additional categories or sub-pages.
 
 - [ ]**Travel Newsletter Form**
-  - [ ] Create a form to allow users to sign up for a travel newsletter, enhancing user engagement.
+  - [x] Create a form to allow users to sign up for a travel newsletter, enhancing user engagement.
   - [ ] *Note*: You do not have to collect and save the data submitted using the form. 
 
 - [ ] **Deployment**
@@ -82,7 +79,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 - [ ] **Custom Styling**: Add a personal touch to your site's design.
   - [ ] Integrate at least one custom font using Google Fonts to add personality to your site.
-  - [ ] Experiment with at least one CSS property not covered in the lessons or labs to customize your page further.
+  - [x] Experiment with at least one CSS property not covered in the lessons or labs to customize your page further.
 
 ### Walkthrough Video
 

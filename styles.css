@@ -11,6 +11,13 @@ body {
     background-color: #f2f1f1;
 }
 
+#home p {
+    font-size:1.1rem;
+    margin:0 auto 2rem;
+    line-height: 2;
+}
+
+
 header {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://media.architecturaldigest.com/photos/5d35d6f183971c0008b2066b/16:9/w_2240,c_limit/Sunset%20over%20downtown%20Austin%20skyline-2.jpg') no-repeat center center/cover;
     color: rgb(255, 255, 255);
@@ -21,13 +28,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 50vh;
 }
 
-header h1 {
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    margin-bottom: 1 rem;
-}
+
 
 header h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,13 +39,21 @@ header h1 {
     font-weight: 700;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
     margin-bottom: 1rem;
+    color: white;
+}
+
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
 }
 
 nav {
     background-color: #3f4593;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 100;
     text-align: justify;
 }
@@ -76,29 +88,66 @@ nav ul li a:hover {
     border-radius: 6px;
 }
 
-h1, h2 {
-    text-align: center;
+main {
+    max-width:1200px;
+    margin:0 auto;
+    padding:2rem;
 }
 
 section {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 2rem 2rem;
+    padding: 2rem;
     background-color: rgb(255, 255, 255);
-    border-radius: 4px;  
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: block;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #3f4593;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 section + div {
     display: flex
 }
 
+#top-attractions {
+    display: flex;
+    flex-direction: column;
+}
+
 .attraction{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .attraction img {
     padding: 1rem 0.5rem 0.1rem 0rem;
+}
+
+.attraction p {
+    line-height: 1.8;
+    margin-top: 1rem;
+}
+
+#eventsguide {
+    display: flex;
+    flex-direction: column;
 }
 
 .event {
@@ -106,12 +155,34 @@ section + div {
     display: flex;
     flex-flow: column;
 }
+
 .event p {
     font-size: 0.85rem;
 }
 
+.event p u{
+    font-weight: bold;
+}
+
+.event desc {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.event a:hover {
+    background-color: #b0b3d8;
+    border-radius: 0.05rem;
+}
+
+#photos {
+    display: flex;
+    flex-direction: column;
+}
+
 .photo-gallery {
-    display:flex;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .photo-gallery img{
@@ -119,5 +190,218 @@ section + div {
 }
 
 .photo-gallery p{
-    text
+    text-align: justify;
+    font-size: 0.95rem;
 }
+
+iframe {
+    margin:auto;
+    padding: 0rem 3rem 1rem 3rem;
+    display:block;
+}
+
+#newsletter {
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+#newsletter p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 100%;
+}
+
+.newsletter-form input[type="email"] {
+    width: 75%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 202, 202, 0.05);
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+
+.newsletter-form button {
+    width:35%;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #3f4593;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+
+.newsletter-form button:hover {
+    box-shadow: 0 6px 20px rgba(230,90,42,0.4);
+}
+.form-group {
+    width: 100%;
+    position:stick;
+    top: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+
+    .nav-div-container {
+        padding: 0 1rem;
+    }
+
+    nav ul li a {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    
+    section {
+        margin: 1rem 1rem;
+        padding: 1rem;
+    }
+    .attraction, .event, .photo-gallery {
+        padding: 1.5rem;
+    }
+    .attraction img, .photo-gallery img {
+        height: 250px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        width: 100%;
+    }
+    .newsletter-form input[type="email"] {
+        width: 100%;
+    }
+    .newsletter-form button {
+    width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 3rem;
+    }
+    header p {
+        font-size: 1.1rem;
+    }
+
+
+    .nav-div-container {
+        padding: 0 1.5rem;
+    }
+    nav ul li a {
+        padding: 0.75rem 1.25rem;
+        font-size: 1.05rem;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+
+    section {
+        margin: 1.5rem 1.5rem;
+        padding: 1.5rem;
+    }
+
+
+    .attraction, .event, .photo-gallery {
+        padding: 1.5rem;
+    }
+    .attraction img, .photo-gallery img {
+        height: 300px;
+    }
+
+    .newsletter-form {
+        flex-direction: row;
+        width:100%
+    }
+
+    .newsletter-form {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .newsletter-form input[type="email"] {
+        width: 70%;
+    }
+
+    .newsletter-form button {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    header h1 {
+        font-size: 4rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    .nav-div-container {
+        padding: 0 2rem;
+    }
+
+    nav ul li a {
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    section {
+        margin: 2rem 2rem;
+        padding: 2rem;
+    }
+
+    .attraction, .event, .photo-gallery {
+        padding: 1.5rem;
+    }
+
+    .attraction img, .photo-gallery img {
+        height: 350px;
+    }
+
+    .newsletter-form {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .newsletter-form input[type="email"] {
+        width: 75%;
+    }
+
+    .newsletter-form button {
+        width: 25%;
+    }
+}
+
