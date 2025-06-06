@@ -110,14 +110,6 @@ section + div {
     font-size: 0.85rem;
 }
 
-.photo-gallery {
-    display:flex;
-}
-
-.photo-gallery img{
-    padding: 3rem 0.5rem 0.2rem 0rem;
-}
-
-.photo-gallery p{
-    text
+#eventsguide {
+    
 }
