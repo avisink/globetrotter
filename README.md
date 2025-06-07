@@ -85,7 +85,6 @@ Deployed Application (optional): [Globetrotter Deployed Site](https://avisink-gl
 
 [Walkthrough Video](https://drive.google.com/file/d/1Lnk492MH19kasvn8ZKx0cqiTdUCg00NJ/preview)
 
-![Walkthrough GIF] (https://github.com/avisink/globetrotter/blob/main/assets/forgif.gif)
 
 
 ### Reflection
