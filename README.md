@@ -4,7 +4,7 @@ Submitted by: **Ayomide Isinkaye**
 
 Estimated time spent: **7** hours spent in total
 
-Deployed Application (optional): [Globetrotter Deployed Site](https://avisink-globetrotter.netlify.app/gallery)
+Deployed Application (optional): [Globetrotter Deployed Site](https://avisink-globetrotter.netlify.app/)
 
 ### Application Features
 
@@ -60,7 +60,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](https://avisink-gl
 - [x] **Additional Media**
   - [x] Embed a piece of media that is not an image or text and relates to the travel content such as a:
     - Map
-    - Video [x]
+    - [x] Video 
     - Song
 
 - [ ] **Enhanced Layouts**
