@@ -83,9 +83,10 @@ Deployed Application (optional): [Globetrotter Deployed Site](https://avisink-gl
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
+[Walkthrough Video](https://drive.google.com/file/d/1Lnk492MH19kasvn8ZKx0cqiTdUCg00NJ/preview)
 
-<iframe src="https://drive.google.com/file/d/1Lnk492MH19kasvn8ZKx0cqiTdUCg00NJ/preview" width="640" height="480" allow="autoplay"></iframe>
+![Walkthrough GIF] (https://drive.google.com/file/d/1fq8IQ02ggxQZ_Wdlpbju0A2L-lCPcRO1/view?usp=sharing)
+
 
 ### Reflection
 
