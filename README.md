@@ -114,5 +114,5 @@ Many aspects of the project demo went well. It had been a long time since I did 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
 - Shoutout to:
-    - Kustom Keith  
-    - Dramatic Dariel
+    - Keith  
+    - Dariel
